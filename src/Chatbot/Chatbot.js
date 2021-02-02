@@ -6,8 +6,8 @@ function Chatbot() {
                      border: '3px solid black', borderRadius: '7px'}}>
         
         <div style={{height: 644, width: '100%', overflow: 'auto', 
-                     backgroundColor: 'white', borderRadius: '4px'}}>
-            하이
+                     //backgroundColor: 'white', 
+                     borderRadius: '4px'}}>
         </div>
 
         <input style={{
