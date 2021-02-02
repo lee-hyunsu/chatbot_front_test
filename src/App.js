@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <div style={{display: 'flex', justifyContent: 'center', marginTop: '2rem'}}>
-        <Title level={2} >Chat Bot Web&nbsp;</Title>
+        <Title level={2} >ChatBot Web&nbsp;</Title>
       </div>
       <div style={{display: 'flex', justifyContent: 'center'}}>
         <Chatbot />
