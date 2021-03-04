@@ -1,3 +1,7 @@
+# 리액트를 이용해서 챗봇 만들기
+챗봇의 디자인, 구성 등 프론트엔드로 공부겸 만들어보고 있습니다.
+프로젝트 목적이긴 하나 공부용으로 만들었기때문에 참고용입니다.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
