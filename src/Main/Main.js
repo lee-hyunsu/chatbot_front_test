@@ -1,5 +1,7 @@
 import React from 'react';
 import {Typography} from 'antd';
+//import { Link } from 'react-router-dom';
+//import MainChatbot from '../Chatbot/MainChatbot';
 
 const {Title} = Typography;
 
@@ -14,17 +16,23 @@ function Main(){
                 <Title level={1}>Instagram Chatbot</Title>
             </div>
 
-            <button className="collection" style={{}}>
-                <Title level={1} >Collection</Title>
-            </button>
+            <Link to="/">
+                <button className="collection" color="primary" style={{}}>
+                    <Title level={1} >Collection</Title>
+                </button>
+            </Link>
 
-            <button className="chatbot">
-                <Title level={1} >Chatbot</Title>
-            </button>
+            <Link to="/">
+                <button className="chatbot">
+                    <Title level={1} >Chatbot</Title>
+                </button>
+            </Link>
 
-            <button className="login">
-                <Title level={1} >Login/Logout</Title>
-            </button>
+            <Link to="/">
+                <button className="login">
+                    <Title level={1} >Login/Logout</Title>
+                </button>
+            </Link>
 
         </div>
     )

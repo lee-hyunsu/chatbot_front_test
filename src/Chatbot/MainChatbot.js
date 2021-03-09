@@ -2,6 +2,7 @@ import React from "react";
 import {Typography} from 'antd';
 import Chatbot from './Chatbot/Chatbot';
 import {SiInstagram} from "react-icons/si";
+//import Main from '../Main/Main';
 
 const {Title} = Typography;
  

@@ -30,7 +30,7 @@ function Chatbot() {
                     onKeyPress={enterHandler}/>
 
                 </div>
-                <Map />
+            <Map />
         </div>
     )
     
