@@ -14,7 +14,6 @@ function MainChatbot() {
       </div>
       <div style={{display: 'flex', justifyContent: 'center'}}>
         <Chatbot />
-        <Main />
       </div>
     </div>
   )
