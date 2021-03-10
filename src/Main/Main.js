@@ -2,12 +2,14 @@ import React from 'react';
 import {Typography} from 'antd';
 //import { Link } from 'react-router-dom';
 //import MainChatbot from '../Chatbot/MainChatbot';
+import { Link, BrowserRouter } from "react-router-dom"
 
 const {Title} = Typography;
 
 function Main(){
     return(
         //전체 속성 설정.
+        <BrowserRouter>
         <div style={{height: 700, width: 700,
             border: '3px solid blue', borderRadius: '7px', display: 'flex',
             flexDirection: 'column', justifyContent: 'center' }}>
@@ -22,7 +24,7 @@ function Main(){
                 </button>
             </Link>
 
-            <Link to="/">
+            <Link to="../Chatbot/MainChatbot">
                 <button className="chatbot">
                     <Title level={1} >Chatbot</Title>
                 </button>
@@ -35,6 +37,7 @@ function Main(){
             </Link>
 
         </div>
+        </BrowserRouter>
     )
 }
 
