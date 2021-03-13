@@ -10,7 +10,8 @@ function Locate(params) {
     return (
         <div style={{height: 700, width: 700,
             border: '3px solid blue', borderRadius: '7px', display: 'flex',
-            flexDirection: 'column', justifyContent: 'center', textAlign: 'center' }}>
+            flexDirection: 'column', justifyContent: 'center', textAlign: 'center',
+            top: '50%', left: '50%', margin: 'auto' }}>
 
             <div className="title" style={{textAlign: 'center'}}>
                 <Title level={1}>Instagram Chatbot</Title>
