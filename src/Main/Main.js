@@ -28,11 +28,11 @@ function Locate(params) {
                 </button>
             </Link>
 
-            <Link to="/login">
+            <a href="https://www.instagram.com/">
                 <button className="login">
                     <Title level={1} >Login/Logout</Title>
                 </button>
-            </Link>
+            </a>
 
         </div>
     )
