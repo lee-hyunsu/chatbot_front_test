@@ -3,7 +3,7 @@ import {Typography} from 'antd';
 //import { Link } from 'react-router-dom';
 import MainChatbot from '../Chatbot/MainChatbot';
 import { Link, BrowserRouter, Route } from "react-router-dom"
-import name from './Test'
+import Login from '../Login/Login';
 
 const {Title} = Typography;
 function Locate(params) {
@@ -22,7 +22,7 @@ function Locate(params) {
                 </button>
             </Link>
 
-            <Link to="/name">
+            <Link to="/chatbot">
                 <button className="chatbot">
                     <Title level={1} >Chatbot</Title>
                 </button>
@@ -37,20 +37,17 @@ function Locate(params) {
         </div>
     )
 }
+
 function Main(){
     return(
         //전체 속성 설정.
         <BrowserRouter>
-        <div style={{display:'flex'}}>
-
-        <div>머리입니다 머리머리머림ㄴ야러ㅑㅣㅁㅈ롲ㅁ야논ㅁ야ㅣ;ㄹ오ㅑㅣㅗㄴㄴ</div>
-        <Route exact path="/login" component={MainChatbot}/> 
-        <Route exact path="/" component={Locate}/>   
-        <Route exact path="/name" component={name}/>   
-        <div>발발발바ㅓ립러ㅣㅂ러ㅣㅑㅗ힝ㅁ노 힌ㅁ옿 ㅐㅑ;ㅁ옪 ;ㅣ</div>
-        </div>
-
-
+            <div style={{display:'flex'}}>
+                <Route exact path="/" component={Locate}/>
+                <Route exact path="/chatbot" component={MainChatbot}/>
+                <Route exact path="/login" component={Login}/> 
+                   
+            </div>
         </BrowserRouter>
     )
 }
