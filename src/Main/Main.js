@@ -17,11 +17,11 @@ function Locate(params) {
                 <Title level={1}>Instagram Chatbot</Title>
             </div>
 
-            <Link to="/">
+            <a href="https://www.instagram.com/">
                 <button className="collection" color="secondary" style={{}}>
                     <Title level={1} >Collection</Title>
                 </button>
-            </Link>
+            </a>
 
             <Link to="/chatbot">
                 <button className="chatbot">
