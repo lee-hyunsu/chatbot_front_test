@@ -16,24 +16,33 @@ function Locate(params) {
             <div className="title" style={{textAlign: 'center'}}>
                 <Title level={1}>Instagram Chatbot</Title>
             </div>
+            
+                <a href="https://www.instagram.com/">
+                    <button 
+                        className="collection"  
+                        style={{backgroundColor: 'gray', border: 'none', 
+                                cursor: 'pointer'}}>
+                        <Title level={1} >Collection</Title>
+                    </button>
+                </a>
 
-            <a href="https://www.instagram.com/">
-                <button className="collection" color="secondary" style={{}}>
-                    <Title level={1} >Collection</Title>
-                </button>
-            </a>
+                <Link to="/chatbot">
+                    <button 
+                        className="chatbot" 
+                        style={{backgroundColor: 'gray', border: 'none', 
+                                cursor: 'pointer'}}>
+                        <Title level={1} >Chatbot</Title>
+                    </button>
+                </Link>
 
-            <Link to="/chatbot">
-                <button className="chatbot">
-                    <Title level={1} >Chatbot</Title>
-                </button>
-            </Link>
-
-            <a href="https://www.instagram.com/">
-                <button className="login">
-                    <Title level={1} >Login/Logout</Title>
-                </button>
-            </a>
+                <a href="https://www.instagram.com/">
+                    <button 
+                        className="login" 
+                        style={{backgroundColor: 'gray', border: 'none', 
+                                cursor: 'pointer'}}>
+                        <Title level={1} >Login/Logout</Title>
+                    </button>
+                </a>
 
         </div>
     )
