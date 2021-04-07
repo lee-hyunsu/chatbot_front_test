@@ -1,7 +1,7 @@
 /*global kakao*/
 import React, { Component } from "react";
 import styled from "styled-components";
-
+//여기서 맵 api불러오는거 해봐야주
 class MapContent extends Component {
     componentDidMount() {
       const script = document.createElement("script");
