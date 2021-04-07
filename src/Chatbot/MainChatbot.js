@@ -5,6 +5,7 @@ import {SiInstagram} from "react-icons/si";
 //import { BrowserRouter, Route } from 'react-router-dom';
 //import Main from '../Main/Main';
 
+//챗봇 대화할 때 입력 함수
 const {Title} = Typography;
  
 function MainChatbot() {
