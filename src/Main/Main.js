@@ -11,7 +11,7 @@ function Locate(params) {
         <div style={{height: 700, width: 700,
             border: '3px solid blue', borderRadius: '7px', display: 'flex',
             flexDirection: 'column', justifyContent: 'center', textAlign: 'center',
-            top: '50%', left: '50%', margin: 'auto' }}>
+            top: '50%', left: '50%', margin: 'auto'}}>
 
             <div className="title" style={{textAlign: 'center'}}>
                 <Title level={1}>Instagram Chatbot</Title>
@@ -20,8 +20,8 @@ function Locate(params) {
                 <a href="https://www.instagram.com/">
                     <button 
                         className="collection"  
-                        style={{backgroundColor: 'gray', border: 'none', 
-                                cursor: 'pointer'}}>
+                        style={{backgroundColor: '#487ef3', border: 'none', 
+                                cursor: 'pointer', borderRadius: '4px'}}>
                         <Title level={1} >Collection</Title>
                     </button>
                 </a>
@@ -29,8 +29,8 @@ function Locate(params) {
                 <Link to="/chatbot">
                     <button 
                         className="chatbot" 
-                        style={{backgroundColor: 'gray', border: 'none', 
-                                cursor: 'pointer'}}>
+                        style={{backgroundColor: '#487ef3', border: 'none', 
+                                cursor: 'pointer', borderRadius: '4px'}}>
                         <Title level={1} >Chatbot</Title>
                     </button>
                 </Link>
@@ -38,8 +38,8 @@ function Locate(params) {
                 <a href="https://www.instagram.com/">
                     <button 
                         className="login" 
-                        style={{backgroundColor: 'gray', border: 'none', 
-                                cursor: 'pointer'}}>
+                        style={{backgroundColor: '#487ef3', border: 'none', 
+                                cursor: 'pointer', borderRadius: '4px'}}>
                         <Title level={1} >Login/Logout</Title>
                     </button>
                 </a>
