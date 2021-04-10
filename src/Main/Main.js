@@ -8,6 +8,7 @@ import Login from '../Login/Login';
 const {Title} = Typography;
 function Locate(params) {
     return (
+        //<div style ={{position: 'absolute', width: '100%', height: '100%'}}>
         <div style={{height: 700, width: 700,
             border: '3px solid blue', borderRadius: '7px', display: 'flex',
             flexDirection: 'column', justifyContent: 'center', textAlign: 'center',
@@ -21,7 +22,8 @@ function Locate(params) {
                     <button 
                         className="collection"  
                         style={{backgroundColor: '#487ef3', border: 'none', 
-                                cursor: 'pointer', borderRadius: '4px'}}>
+                                cursor: 'pointer', borderRadius: '4px',
+                                padding: '0.25rem 1rem', margin: '1.25rem'}}>
                         <Title level={1} >Collection</Title>
                     </button>
                 </a>
@@ -30,7 +32,8 @@ function Locate(params) {
                     <button 
                         className="chatbot" 
                         style={{backgroundColor: '#487ef3', border: 'none', 
-                                cursor: 'pointer', borderRadius: '4px'}}>
+                                cursor: 'pointer', borderRadius: '4px',
+                                padding: '0.25rem 1rem', margin: '1.25rem'}}>
                         <Title level={1} >Chatbot</Title>
                     </button>
                 </Link>
@@ -39,12 +42,15 @@ function Locate(params) {
                     <button 
                         className="login" 
                         style={{backgroundColor: '#487ef3', border: 'none', 
-                                cursor: 'pointer', borderRadius: '4px'}}>
+                                cursor: 'pointer', borderRadius: '4px',
+                                padding: '0.25rem 1rem',
+                                margin: '1.25rem'}}>
                         <Title level={1} >Login/Logout</Title>
                     </button>
                 </a>
 
         </div>
+        //</div>
     )
 }
 
