@@ -8,7 +8,7 @@ import Login from '../Login/Login';
 const {Title} = Typography;
 function Locate(params) {
     return (
-        //<div style ={{position: 'absolute', width: '100%', height: '100%'}}>
+        
         <div style={{height: 700, width: 700,
             border: '3px solid blue', borderRadius: '7px', display: 'flex',
             flexDirection: 'column', justifyContent: 'center', textAlign: 'center',
@@ -50,7 +50,6 @@ function Locate(params) {
                 </a>
 
         </div>
-        //</div>
     )
 }
 
@@ -69,3 +68,9 @@ function Main(){
 }
 
 export default Main;
+
+// position: 'absolute', left: '0', top: '0', bottom: '0',
+//                       right: '0', fontSize: '20px', display: 'block',
+//                       paddingBottom: '2rem', textAlign: 'center',
+//                       fontWeight: 'bold', letterSpacing: '2px',
+//                       boxShadow: '0, 0, 8px rgba'
